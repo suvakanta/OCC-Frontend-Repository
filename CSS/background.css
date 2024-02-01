@@ -1,0 +1,27 @@
+.color-example{
+    background-color: black;
+    color:aliceblue;
+}
+.background-example{
+    background-color: aquamarine;
+}
+.background-position-example{
+    background-image: url("https://www.shutterstock.com/image-vector/enchanting-anime-landscape-mistcovered-mountain-600nw-2301778699.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.opacity-example{
+    background-color: rgba(255,0,0,0.5);
+}
+.image-example{
+    display: block;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.image-sizing-example{
+    width: 200px;
+    height: auto;
+}

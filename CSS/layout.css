@@ -1,0 +1,130 @@
+.box-model{
+    background-color: pink;
+    border:black 5px solid;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding: 40px;
+    border-color: aqua;
+    border-width: 10px;
+    border-style: double;
+    border-left-style: solid;
+    border-right-color: darkblue;
+    border-radius: 15px;
+}
+/* 1 value = all sides 
+    2 values = top and bottom, right and left
+    3 values = top, right and left, bottom
+    4 values = top, right, bottom, left
+    */
+    .box-content{
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        background-color: turquoise;
+        border:2px black solid;
+        box-sizing: content-box;
+    }
+    .box-border{
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        background-color: tomato;
+        border:2px black solid;
+        box-sizing: border-box;
+    }
+    /* Display Property */
+    .block{
+        background-color: lawngreen;
+        display:block;
+        height: 100px;
+    }
+    .inline{
+        background-color: violet;
+        height: 100px;
+    }
+    .inline-block{
+        background-color: cornflowerblue;
+        display: inline-block;
+        height: 100px;
+    }
+    /* Element Positioning */
+    .static{
+        position:static;
+        background-color: limegreen;
+        width: 200px;
+        height: 50px;
+        left: 80px;
+    }
+    .relative{
+        position:relative;
+        background-color: aquamarine;
+        width: 200px;
+        height: 50px;
+        left: 80px;
+        top:10px;
+    }
+    .absolute{
+       
+        background-color: slateblue;
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        left: 80px;
+        top: 10px;
+        
+    }
+    .fixed{
+        background-color: orange;
+        width: 200px;
+        height: 50px;
+        position:fixed;
+        top:0;
+        right: 0;
+    }
+    .sticky{
+        background-color: skyblue;
+        width: 200px;
+        height: 50px;
+        position:sticky;
+        top:100px;
+        left: 20;
+    }
+
+    /* Floats */
+    .float-Right{
+        background-color: indianred;
+        width: 200px;
+        height: 200px;
+       float:right;
+    }
+    .float-Left{
+        background-color: peru;
+        width: 200px;
+        height: 200px;
+       float:left;
+    }
+    .clear-floats{
+        background-color: deepskyblue;
+        clear:both;
+
+    }
+    /* Centering Elements */
+    .parent-box{
+        height: 200px;
+        width: 300px;
+        background-color: rebeccapurple;
+        margin:auto;
+    }
+    .center-vertical{
+        background-color: coral;
+        display: flex;
+        align-items:center;
+    }
+    .center-horizontal-vertical{
+        background-color: firebrick;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color:white;
+
+    }

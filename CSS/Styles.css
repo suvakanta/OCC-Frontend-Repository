@@ -1,0 +1,77 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    background-color: aquamarine;
+}
+li{
+    background-color: red;
+}
+.listClass{
+    background-color: orange;
+}
+#listId{
+    background-color: yellow;
+}
+li[value="list"]{
+    background-color: green;
+}
+.listClass1, .listClass2, #listId{
+    background-color: skyblue;
+}
+ul .descendant{
+    background-color: indigo;
+    color: white
+}
+/* Pseudo Classes */
+.hoverBtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.activeBtn:active{
+    background-color: darkgray;
+    color: black;
+}
+.focusInput:focus{
+    background-color: chartreuse;
+    border-width: 5px;
+}
+.visitedLink:visited{
+    color: deeppink;
+}
+/* Psedu-ELements */
+.bigLetter::first-letter{
+    font-size: 40 px;
+}
+.line1::first-line{
+    color: darkorange;
+
+}
+.beforeAndAfter::before{
+    content: "before";
+    color:red;
+
+
+}
+.beforeAndAfter::after{
+    content: "after";
+    color:blue;
+}
+.selectParts::selection{
+    background-color: darkmagenta;
+    color: white;
+
+}
+/* Earlier Rule */
+.cascade{
+    background-color: red !important;
+
+}
+/* Later Rule */
+.cascade{
+    background-color: blue;
+    color: white;
+    
+}
