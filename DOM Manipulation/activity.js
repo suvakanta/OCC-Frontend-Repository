@@ -13,4 +13,8 @@ function checkNumber() {
     } else {
         myDiv.textContent = "Odd";
     }
+    if(numberValue==""){
+        myDiv.textContent = "Please enter a value";
+
+    }
 }
